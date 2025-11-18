@@ -1,0 +1,7 @@
+
+services:
+  java-app:
+    build: .
+    image: eclipse-temurin:8-jre-alpine
+    ports:
+      - '9999:9999'
